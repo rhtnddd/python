@@ -1,5 +1,5 @@
 a=list(map(int,input().split()))
 a.sort()
-print(a)
+print('오름차순:',a)
 a.sort(reverse=True)
-print(a)
+print('내림차순:',a)

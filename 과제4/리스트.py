@@ -81,14 +81,14 @@
 # else:
 #     print('0이 존재 합니다.')
 
-import random
-alist = []
-num = random.randint(1,100)
-for i in range (5):
-    alist.append(num)
-    num = random.randint(1,100)
-if 50 in alist:
-    print("50이 존재 합니다.")
-else:
-    print("50이 존재하지 않습니다.")
-print("리스트 숫자:",alist)
+# import random
+# alist = []
+# num = random.randint(1,100)
+# for i in range (5):
+#     alist.append(num)
+#     num = random.randint(1,100)
+# if 50 in alist:
+#     print("50이 존재 합니다.")
+# else:
+#     print("50이 존재하지 않습니다.")
+# print("리스트 숫자:",alist)

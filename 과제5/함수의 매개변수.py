@@ -19,7 +19,7 @@
 # x=square(4)
 # print(x)
 
-def get_max(a,b):
-    return max(a,b)
-x=get_max(7,5)
-print(x)
+# def get_max(a,b):
+#     return max(a,b)
+# x=get_max(7,5)
+# print(x)

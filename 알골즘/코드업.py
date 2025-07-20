@@ -11,8 +11,12 @@
 # print(int(b)+int(a))
 
 # 1116
+# a,b=input().split()
+# print(f'{a}+{b}={int(a)+int(b)}')
+# print(f'{a}-{b}={int(a)-int(b)}')
+# print(f'{a}*{b}={int(a)*int(b)}')
+# print(f'{a}/{b}={int(a)//int(b)}')
+
+# 1117
 a,b=input().split()
-print(f'{a}+{b}={int(a)+int(b)}')
-print(f'{a}-{b}={int(a)-int(b)}')
-print(f'{a}*{b}={int(a)*int(b)}')
-print(f'{a}/{b}={int(a)//int(b)}')
+print(round(float(a)*float(b),2))

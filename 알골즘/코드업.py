@@ -18,5 +18,9 @@
 # print(f'{a}/{b}={int(a)//int(b)}')
 
 # 1117
-a,b=input().split()
-print(round(float(a)*float(b),2))
+# a,b=input().split()
+# print(round(float(a)*float(b),2))
+
+# 1118
+a=input()
+print(int(a)*24)

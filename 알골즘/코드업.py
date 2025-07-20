@@ -9,3 +9,10 @@
 # 1115
 # a,b=input().split()
 # print(int(b)+int(a))
+
+# 1116
+a,b=input().split()
+print(f'{a}+{b}={int(a)+int(b)}')
+print(f'{a}-{b}={int(a)-int(b)}')
+print(f'{a}*{b}={int(a)*int(b)}')
+print(f'{a}/{b}={int(a)//int(b)}')

@@ -50,5 +50,9 @@
 # print("%o %X"%(a,a))
 
 # 1131
+# a=input()
+# print(a)
+
+# 1132
 a=input()
 print(a)

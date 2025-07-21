@@ -30,5 +30,9 @@
 # print(int(a)*24)
 
 # 1120
-a,b,c=map(int,input().split())
-print(f"{(a+b+c)/3:.2f}")
+# a,b,c=map(int,input().split())
+# print(f"{(a+b+c)/3:.2f}")
+
+# 1121
+a,b=map(int,input().split())
+print(a%b)

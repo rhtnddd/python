@@ -46,5 +46,9 @@
 # print(f"{9/5*a+32:.3f}")
 
 # 1125
-a=int(input())
-print("%o %X"%(a,a))
+# a=int(input())
+# print("%o %X"%(a,a))
+
+# 1131
+a=input()
+print(a)

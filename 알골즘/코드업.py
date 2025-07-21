@@ -58,5 +58,9 @@
 # print(a)
 
 # 1133
-a=input()
-print(a)
+# a=input()
+# print(a)
+
+# 1135
+a,b=map(int,input().split())
+print((a>b)*1)

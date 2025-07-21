@@ -22,5 +22,9 @@
 # print(round(float(a)*float(b),2))
 
 # 1118
+# a,b=input().split()
+# print(round(float(a)*float(b)/2,1))
+
+# 1119
 a=input()
 print(int(a)*24)

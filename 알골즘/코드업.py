@@ -26,5 +26,9 @@
 # print(round(float(a)*float(b)/2,1))
 
 # 1119
-a=input()
-print(int(a)*24)
+# a=input()
+# print(int(a)*24)
+
+# 1120
+a,b,c=map(int,input().split())
+print(f"{(a+b+c)/3:.2f}")

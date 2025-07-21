@@ -38,5 +38,9 @@
 # print(a%b)
 
 # 1122
+# a=int(input())
+# print(a//60,a%60)
+
+# 1123
 a=int(input())
-print(a//60,a%60)
+print(f"{9/5*a+32:.3f}")

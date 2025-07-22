@@ -113,6 +113,9 @@
 # a, b = map(int, input().split())
 # print(a | b)
 # 1147
+# a, b = map(int, input().split())
+# print(a << b)
+# 1148
 a, b = map(int, input().split())
-print(a << b)
+print(a >> b)
 

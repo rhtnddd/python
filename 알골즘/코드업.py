@@ -143,5 +143,11 @@
 # if a == b:
 # 		print("=")
 # 1154
-a,b=map(int,input().split())
-print(max(a,b)-min(a,b))
+# a,b=map(int,input().split())
+# print(max(a,b)-min(a,b))
+# 1155
+a=int(input())
+if a%7==0:
+    print("multiple")
+else:
+    print("not multiple")

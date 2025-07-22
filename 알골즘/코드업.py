@@ -122,5 +122,9 @@
 # a,b=map(int,input().split())
 # print(a if a > b else b)
 # 1150
-a, b, c = map(int, input().split())
-print(min(a, b, c))
+# a, b, c = map(int, input().split())
+# print(min(a, b, c))
+# 1151
+a=int(input())
+if a<10:
+    print("small")

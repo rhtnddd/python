@@ -128,9 +128,17 @@
 # a=int(input())
 # if a<10:
 #     print("small")
-# 1151
-a=int(input())
-if a<10:
-    print("small")
-else:
-    print("big")
+# 1152
+# a=int(input())
+# if a<10:
+#     print("small")
+# else:
+#     print("big")
+# 1153
+a,b=map(int,input().split())
+if a < b:
+	print("<")
+if a > b:
+	print(">")
+if a == b:
+		print("=")

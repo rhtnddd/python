@@ -116,6 +116,8 @@
 # a, b = map(int, input().split())
 # print(a << b)
 # 1148
-a, b = map(int, input().split())
-print(a >> b)
-
+# a, b = map(int, input().split())
+# print(a >> b)
+# 1149
+a,b=map(int,input().split())
+print(a if a > b else b)

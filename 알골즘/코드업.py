@@ -135,10 +135,13 @@
 # else:
 #     print("big")
 # 1153
+# a,b=map(int,input().split())
+# if a < b:
+# 	print("<")
+# if a > b:
+# 	print(">")
+# if a == b:
+# 		print("=")
+# 1154
 a,b=map(int,input().split())
-if a < b:
-	print("<")
-if a > b:
-	print(">")
-if a == b:
-		print("=")
+print(max(a,b)-min(a,b))

@@ -98,5 +98,8 @@
 #         print(s[i][j],end=' ')
 #     print()
 # 1138
-a=int(input())
-print((not a)*1)
+# a=int(input())
+# print((not a)*1)
+# 1139
+a,b=map(int,input().split())
+print((a and b)*1)

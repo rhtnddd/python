@@ -101,5 +101,8 @@
 # a=int(input())
 # print((not a)*1)
 # 1139
+# a,b=map(int,input().split())
+# print((a and b)*1)
+# 1140
 a,b=map(int,input().split())
-print((a and b)*1)
+print((a or b)*1)

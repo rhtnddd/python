@@ -62,5 +62,38 @@
 # print(a)
 
 # 1135
-a,b=map(int,input().split())
-print((a>=b)*1)
+# a,b=map(int,input().split())
+# print((a>=b)*1)
+
+# 1495
+a,b,c=map(int,input().split())
+n = [[0] * b for _ in range(a)]
+s = [[0] * b for _ in range(a)]
+for i in range(c):
+    x1,y1,x2,y2,u=map(int,input().split())
+    n[x1][y1] += u
+    if x2 + 1 < a and y2 + 1 < b:
+        n[x2+1][y2+1] = n[x2+1][y2+1]+u
+    if y2 + 1 < b:
+        n[x1][y2+1] = n[x1][y2+1]-u
+    if x2 + 1 < a:
+        n[x2+1][y1] = n[x2+1][y1]-u
+for i in range(a):
+    for j in range(b):
+        print(n[i][j],end=' ')
+    print()
+
+for i in range(a):
+    for j in range(b):
+        s[i][j] = n[i][j]
+        if i > 0:
+            s[i][j] += s[i-1][j]
+        if j > 0:
+            s[i][j] += s[i][j-1]
+        if i > 0 and j > 0:
+            s[i][j] -= s[i-1][j-1]
+print()
+for i in range(a):
+    for j in range(b):
+        print(s[i][j],end=' ')
+    print()

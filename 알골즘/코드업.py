@@ -164,10 +164,18 @@
 # else:
 #     print("lose")
 # 1158
+# a=int(input())
+# if 30<=a and a<=40:
+#     print("win")
+# elif 60<=a and a<=70:
+#     print("win")
+# else:
+#     print("lose")
+# 1159
 a=int(input())
-if 30<=a and a<=40:
+if 50<=a and a<=70:
     print("win")
-elif 60<=a and a<=70:
+elif a%6==0:
     print("win")
 else:
     print("lose")

@@ -186,15 +186,22 @@
 # else:
 #     print("enjoy")
 # 1161
-a, b = map(int, input().split())
+# a, b = map(int, input().split())
 
-if a % 2 == 0:
-    if b % 2 == 0:
-        print("짝수+짝수=짝수")
-    else:
-        print("짝수+홀수=홀수")
+# if a % 2 == 0:
+#     if b % 2 == 0:
+#         print("짝수+짝수=짝수")
+#     else:
+#         print("짝수+홀수=홀수")
+# else:
+#     if b % 2 == 0:
+#         print("홀수+짝수=홀수")
+#     else:
+#         print("홀수+홀수=짝수")
+# 1162
+y, m, c = map(int, input().split())
+
+if (y - m + c) % 10 == 0:
+    print("대박")
 else:
-    if b % 2 == 0:
-        print("홀수+짝수=홀수")
-    else:
-        print("홀수+홀수=짝수")
+    print("그럭저럭")

@@ -146,8 +146,14 @@
 # a,b=map(int,input().split())
 # print(max(a,b)-min(a,b))
 # 1155
+# a=int(input())
+# if a%7==0:
+#     print("multiple")
+# else:
+#     print("not multiple")
+# 1156
 a=int(input())
-if a%7==0:
-    print("multiple")
+if a%2==0:
+    print("even")
 else:
-    print("not multiple")
+    print("odd")

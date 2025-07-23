@@ -152,8 +152,14 @@
 # else:
 #     print("not multiple")
 # 1156
-a=int(input())
-if a%2==0:
-    print("even")
+# a=int(input())
+# if a%2==0:
+#     print("even")
+# else:
+#     print("odd")
+# 1157
+a=float(input())
+if 50<=a and a<=60:
+    print("win")
 else:
-    print("odd")
+    print("lose")

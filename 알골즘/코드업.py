@@ -158,9 +158,16 @@
 # else:
 #     print("odd")
 # 1157
-a=float(input())
-if 50<=a and a<=60:
+# a=float(input())
+# if 50<=a and a<=60:
+#     print("win")
+# else:
+#     print("lose")
+# 1158
+a=int(input())
+if 30<=a and a<=40:
+    print("win")
+elif 60<=a and a<=70:
     print("win")
 else:
     print("lose")
-    

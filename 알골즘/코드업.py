@@ -199,9 +199,16 @@
 #     else:
 #         print("홀수+홀수=짝수")
 # 1162
-y, m, c = map(int, input().split())
+# y, m, c = map(int, input().split())
 
-if (y - m + c) % 10 == 0:
+# if (y - m + c) % 10 == 0:
+#     print("대박")
+# else:
+#     print("그럭저럭")
+# 1163
+a, b, c = map(int, input().split())
+
+if ((a + b + c) // 100) % 2 == 0:
     print("대박")
 else:
     print("그럭저럭")

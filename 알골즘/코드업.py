@@ -180,8 +180,21 @@
 # else:
 #     print("lose")
 # 1160
-a=int(input())
-if a==1 or a==3 or a==5 or a==7:
-    print("oh my god")
+# a=int(input())
+# if a==1 or a==3 or a==5 or a==7:
+#     print("oh my god")
+# else:
+#     print("enjoy")
+# 1161
+a, b = map(int, input().split())
+
+if a % 2 == 0:
+    if b % 2 == 0:
+        print("짝수+짝수=짝수")
+    else:
+        print("짝수+홀수=홀수")
 else:
-    print("enjoy")
+    if b % 2 == 0:
+        print("홀수+짝수=홀수")
+    else:
+        print("홀수+홀수=짝수")

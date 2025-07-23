@@ -172,10 +172,16 @@
 # else:
 #     print("lose")
 # 1159
+# a=int(input())
+# if 50<=a and a<=70:
+#     print("win")
+# elif a%6==0:
+#     print("win")
+# else:
+#     print("lose")
+# 1160
 a=int(input())
-if 50<=a and a<=70:
-    print("win")
-elif a%6==0:
-    print("win")
+if a==1 or a==3 or a==5 or a==7:
+    print("oh my god")
 else:
-    print("lose")
+    print("enjoy")
